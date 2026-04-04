@@ -8,85 +8,103 @@
 </head>
 
 <body>
-    <div class="box1 flex robot">
-        <img src="assets/awawa-removebg-preview.png" alt="robot assistant">
-        <div>
-            <h1>Olá, tudo bem?</h1>
-            <h1>Como Posso ajudar hoje?</h1>
-            <button>Fale comigo</button>
+
+    <div class="flex">
+        <div class="box1 flex robot">
+            <img src="assets/awawa-removebg-preview.png" alt="robot assistant">
+            <div>
+                <h1>Olá, tudo bem?</h1>
+                <h1>Como Posso ajudar hoje?</h1>
+                <button>Fale comigo</button>
+            </div>
+            <div class="UpToDown">
+                <Button class="RoundedButton">Quero comprar Meterial</Button>
+                <Button class="RoundedButton">Quero Comprar Serviço</Button>
+                <Button class="RoundedButton">Consultar Fluxo de Processos</Button>
+                <Button class="RoundedButton">Status das minhas Requesições</Button>
+                <Button class="RoundedButton">Não Sei ao certo, me ajude</Button>
+            </div>
         </div>
-        <div class="UpToDown">
-            <Button class="RoundedButton">Quero comprar Meterial</Button>
-            <Button class="RoundedButton">Quero Comprar Serviço</Button>
-            <Button class="RoundedButton">Consultar Fluxo de Processos</Button>
-            <Button class="RoundedButton">Status das minhas Requesições</Button>
-            <Button class="RoundedButton">Não Sei ao certo, me ajude</Button>
+        <div class="box2">
+            <div class="flex">
+                <h3>Status Pedidos recentes</h3>
+                <div class="flex">
+                    <span>Ver todos os pedidos</span>
+                    <button class="+Button">+</button>
+                </div>
+            </div>
+            <div class="flex">
+                <span>N° Req.</span>
+                <span>Data</span>
+                <span>Valor</span>
+                <span>Status</span>
+            </div>
+            <div class="box3 flex">
+                <span>#125</span>
+                <span>20/04/2020</span>
+                <span>R$ 1250,50</span>
+                <div class="box4">
+                    <span>Processando</span>
+                </div>
+            </div>
+            <div class="box3 flex">
+                <span>#124</span>
+                <span>20/04/2020</span>
+                <span>R$ 1250,50</span>
+                <div class="box4">
+                    <span>Avaliando</span>
+                </div>
+            </div>
+            <div class="box3 flex">
+                <span>#123</span>
+                <span>20/04/2020</span>
+                <span>R$ 1250,50</span>
+                <div class="box4">
+                    <span>Cancelado</span>
+                </div>
+            </div>
+            <div class="box3 flex">
+                <span>#122</span>
+                <span>20/04/2020</span>
+                <span>R$ 1250,50</span>
+                <div class="box4">
+                    <span>Processando</span>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="box2">
-        <div class="flex">
-            <h3>Status Pedidos recentes</h3>
+
+    <div class="flex">
+        <div class="box1">
             <div class="flex">
-                <span>Ver todos os pedidos</span>
-                <button class="+Button">+</button>
+                <h3>Baseado em suas Últimas compras</h3>
+                <div class="flex">
+                    <span>Ver todas as recomendações</span>
+                    <button class="+Button">+</button>
+                </div>
             </div>
-        </div>
-        <div class="flex">
-            <span>N° Req.</span>
-            <span>Data</span>
-            <span>Valor</span>
-            <span>Status</span>
-        </div>
-        <div class="box3 flex">
-            <span>#125</span>
-            <span>20/04/2020</span>
-            <span>R$ 1250,50</span>
-            <div class="box4">
-                <span>Processando</span>
-            </div>
-        </div>
-        <div class="box3 flex">
-            <span>#124</span>
-            <span>20/04/2020</span>
-            <span>R$ 1250,50</span>
-            <div class="box4">
-                <span>Avaliando</span>
-            </div>
-        </div>
-        <div class="box3 flex">
-            <span>#123</span>
-            <span>20/04/2020</span>
-            <span>R$ 1250,50</span>
-            <div class="box4">
-                <span>Cancelado</span>
-            </div>
-        </div>
-        <div class="box3 flex">
-            <span>#122</span>
-            <span>20/04/2020</span>
-            <span>R$ 1250,50</span>
-            <div class="box4">
-                <span>Processando</span>
-            </div>
-        </div>
-    </div>
-    <div class="box1">
-        <div class="flex">
-            <h3>Baseado em suas Últimas compras</h3>
             <div class="flex">
-                <span>Ver todas as recomendações</span>
-                <button class="+Button">+</button>
-            </div>
-        </div>
-        <div class="flex">
-            <span><- </span>
+                <span> arrow </span>
+                <div class="flex">
+                    <div class="box3 Product">
+                        <img src="assets/A4.png" alt="Papel A4">
+                        <div class="flex">
+                            <div>
+                                <span>Papel A4</span>
+                                <span>R$25,00</span>
+                            </div>
+                            <div class="ButtonShoppingCart">
+                                <img class="ShoppingCart" src="assets/shoopingCart.png" alt="Shopping Cart">
+                            </div>
+                        </div>
+                    </div>
                     <div class="flex">
-                        <div class="box3">
-                            <img src="assets/A4.png" alt="Papel A4">
+                        <div class="box3 Product">
+                            <img src="assets/SAP.png" alt="Serviço SAP">
                             <div class="flex">
                                 <div>
-                                    <span>Papel A4</span>
-                                    <span>R$25,00</span>
+                                    <span>Serviço SAP</span>
+                                    <span>R$125,00</span>
                                 </div>
                                 <div class="ButtonShoppingCart">
                                     <img class="ShoppingCart" src="assets/shoopingCart.png" alt="Shopping Cart">
@@ -94,12 +112,12 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="box3">
-                                <img src="assets/SAP.png" alt="Serviço SAP">
+                            <div class="box3 Product">
+                                <img src="assets/Grampeador.jpg" alt="Grampeador">
                                 <div class="flex">
                                     <div>
-                                        <span>Serviço SAP</span>
-                                        <span>R$125,00</span>
+                                        <span>Grampeador</span>
+                                        <span>R$20,00</span>
                                     </div>
                                     <div class="ButtonShoppingCart">
                                         <img class="ShoppingCart" src="assets/shoopingCart.png" alt="Shopping Cart">
@@ -107,12 +125,12 @@
                                 </div>
                             </div>
                             <div class="flex">
-                                <div class="box3">
-                                    <img src="assets/Grampeador.jpg" alt="Grampeador">
+                                <div class="box3 Product">
+                                    <img src="assets/BIC.jpg" alt="Caneta BIC">
                                     <div class="flex">
                                         <div>
-                                            <span>Grampeador</span>
-                                            <span>R$20,00</span>
+                                            <span>Caneta BIC</span>
+                                            <span>R$2,00</span>
                                         </div>
                                         <div class="ButtonShoppingCart">
                                             <img class="ShoppingCart" src="assets/shoopingCart.png" alt="Shopping Cart">
@@ -120,11 +138,11 @@
                                     </div>
                                 </div>
                                 <div class="flex">
-                                    <div class="box3">
-                                        <img src="assets/BIC.jpg" alt="Caneta BIC">
+                                    <div class="box3 Product">
+                                        <img src="assets/Lapis.jpg" alt="Lápis preto">
                                         <div class="flex">
                                             <div>
-                                                <span>Caneta BIC</span>
+                                                <span>Lápis preto</span>
                                                 <span>R$2,00</span>
                                             </div>
                                             <div class="ButtonShoppingCart">
@@ -134,12 +152,12 @@
                                         </div>
                                     </div>
                                     <div class="flex">
-                                        <div class="box3">
-                                            <img src="assets/Lapis.jpg" alt="Lápis preto">
+                                        <div class="box3 Product">
+                                            <img src="assets/Caderno.jpg" alt="Caderno capa dura">
                                             <div class="flex">
                                                 <div>
-                                                    <span>Lápis preto</span>
-                                                    <span>R$2,00</span>
+                                                    <span>Caderno</span>
+                                                    <span>R$60,00</span>
                                                 </div>
                                                 <div class="ButtonShoppingCart">
                                                     <img class="ShoppingCart" src="assets/shoopingCart.png"
@@ -147,102 +165,138 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span> arrow </span>
+                            <div class="box2">
+                                <div class="flex">
+                                    <h3>Baseado em suas Últimas compras</h3>
+                                    <div class="flex">
+                                        <span>Ver todas as recomendações</span>
+                                        <button class="Button">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="box3">
+                <div class="flex">
+                    <div class="pfp">
+                        <img src="assets/9c0f06b14aba220811331c49718d6b93.jpg" alt="PFP">
+                    </div>
+                    <div>
+                        <h3>John Doe</h3>
+                        <p>Mensagem muito legal</p>
+                    </div>
+                    <P>Abr 5</P>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="flex">
+                    <div class="pfp">
+                        <img src="assets/9c0f06b14aba220811331c49718d6b93.jpg" alt="PFP">
+                    </div>
+                    <div>
+                        <h3>John Doe</h3>
+                        <p>Mensagem muito legal</p>
+                    </div>
+                    <P>Abr 5</P>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="flex">
+                    <div class="pfp">
+                        <img src="assets/9c0f06b14aba220811331c49718d6b93.jpg" alt="PFP">
+                    </div>
+                    <div>
+                        <h3>John Doe</h3>
+                        <p>Mensagem muito legal</p>
+                    </div>
+                    <P>Abr 5</P>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="flex">
+                    <div class="pfp">
+                        <img src="assets/9c0f06b14aba220811331c49718d6b93.jpg" alt="PFP">
+                    </div>
+                    <div>
+                        <h3>John Doe</h3>
+                        <p>Mensagem muito legal</p>
+                    </div>
+                    <P>Abr 5</P>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+            <div class="flex">
+                <h3>Ultimas Transações e Pedidos</h3>
+                <div class="flex">
+                    <span>Ver todas as transação</span>
+                    <button class="+Button">+</button>
+                </div>
+            </div>
+            <div class="flex">
+                <span><- </span>
+                        <div class="flex">
+                            <div class="box3 Product">
+                                <img src="assets/A4.png" alt="Papel A4">
+                                <div class="flex">
+                                    <div>
+                                        <span>Papel A4</span>
+                                        <span>R$25,00</span>
+                                    </div>
+                                    <div class="ButtonShoppingCart">
+                                        <img class="ShoppingCart" src="assets/shoopingCart.png" alt="Shopping Cart">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="box3 Product">
+                                    <img src="assets/SAP.png" alt="Serviço SAP">
+                                    <div class="flex">
+                                        <div>
+                                            <span>Serviço SAP</span>
+                                            <span>R$125,00</span>
+                                        </div>
+                                        <div class="ButtonShoppingCart">
+                                            <img class="ShoppingCart" src="assets/shoopingCart.png" alt="Shopping Cart">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <div class="box3 Product">
+                                        <img src="assets/Grampeador.jpg" alt="Grampeador">
                                         <div class="flex">
-                                            <div class="box3">
-                                                <img src="assets/Caderno.jpg" alt="Caderno capa dura">
-                                                <div class="flex">
-                                                    <div>
-                                                        <span>Caderno</span>
-                                                        <span>R$60,00</span>
-                                                    </div>
-                                                    <div class="ButtonShoppingCart">
-                                                        <img class="ShoppingCart" src="assets/shoopingCart.png"
-                                                            alt="Shopping Cart">
-                                                    </div>
-                                                </div>
+                                            <div>
+                                                <span>Grampeador</span>
+                                                <span>R$30,00</span>
+                                            </div>
+                                            <div class="ButtonShoppingCart">
+                                                <img class="ShoppingCart" src="assets/shoopingCart.png"
+                                                    alt="Shopping Cart">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <span>-></span>
-                                <div class="box2">
-                                    <div class="flex">
-                                        <h3>Baseado em suas Últimas compras</h3>
-                                        <div class="flex">
-                                            <span>Ver todas as recomendações</span>
-                                            <button class="Button">+</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-
-
-                                <div class="box1"></div>
-
-
-
-
-
-
-
-                                <div class="box2">
-                                    <div class="flex">
-                                        <h3>Ultimas Transações e Pedidos</h3>
-                                        <div class="flex">
-                                            <span>Ver todas as transação</span>
-                                            <button class="+Button">+</button>
-                                        </div>
-                                    </div>
-                                    <div class="flex">
-                                        <span><- </span>
-                                                <div class="flex">
-                                                    <div class="box3">
-                                                        <img src="assets/A4.png" alt="Papel A4">
-                                                        <div class="flex">
-                                                            <div>
-                                                                <span>Papel A4</span>
-                                                                <span>R$25,00</span>
-                                                            </div>
-                                                            <div class="ButtonShoppingCart">
-                                                                <img class="ShoppingCart" src="assets/shoopingCart.png"
-                                                                    alt="Shopping Cart">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="flex">
-                                                        <div class="box3">
-                                                            <img src="assets/SAP.png" alt="Serviço SAP">
-                                                            <div class="flex">
-                                                                <div>
-                                                                    <span>Serviço SAP</span>
-                                                                    <span>R$125,00</span>
-                                                                </div>
-                                                                <div class="ButtonShoppingCart">
-                                                                    <img class="ShoppingCart"
-                                                                        src="assets/shoopingCart.png"
-                                                                        alt="Shopping Cart">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="flex">
-                                                            <div class="box3">
-                                                                <img src="assets/Grampeador.jpg" alt="Grampeador">
-                                                                <div class="flex">
-                                                                    <div>
-                                                                        <span>Grampeador</span>
-                                                                        <span>R$30,00</span>
-                                                                    </div>
-                                                                    <div class="ButtonShoppingCart">
-                                                                        <img class="ShoppingCart"
-                                                                            src="assets/shoopingCart.png"
-                                                                            alt="Shopping Cart">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 
 </html>
